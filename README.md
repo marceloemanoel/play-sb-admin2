@@ -10,7 +10,7 @@ To use this template, choose one of the following options to get started:
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-sb-admin-2/issues) here on GitHub.
+Have a bug or an issue with this template? [Open a new issue](https://github.com/marceloemanoel/play-sb-admin2/issues) here on GitHub.
 
 ## Creator
 This project was created by **Marcelo Diniz**.
