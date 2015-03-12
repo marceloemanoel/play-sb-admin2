@@ -39,4 +39,8 @@ object Application extends Controller {
   def typography() = Action {
     Ok(views.html.uielements.typography())
   }
+
+  def icons() = Action {
+    Ok(views.html.uielements.icons())
+  }
 }
