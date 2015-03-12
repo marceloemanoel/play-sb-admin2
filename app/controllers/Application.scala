@@ -47,4 +47,8 @@ object Application extends Controller {
   def grid() = Action {
     Ok(views.html.uielements.grid())
   }
+
+  def blank() = Action {
+    Ok(views.html.blank())
+  }
 }
