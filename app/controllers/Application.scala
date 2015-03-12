@@ -31,4 +31,8 @@ object Application extends Controller {
   def buttons() = Action {
     Ok(views.html.uielements.buttons())
   }
+
+  def notifications() = Action {
+    Ok(views.html.uielements.notifications())
+  }
 }
