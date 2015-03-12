@@ -23,4 +23,12 @@ object Application extends Controller {
   def forms() = Action {
     Ok(views.html.forms())
   }
+
+  def panelsAndWells() = Action {
+    Ok(views.html.uielements.panelsAndWells())
+  }
+
+  def buttons() = Action {
+    Ok(views.html.uielements.buttons())
+  }
 }
