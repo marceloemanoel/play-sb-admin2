@@ -35,4 +35,8 @@ object Application extends Controller {
   def notifications() = Action {
     Ok(views.html.uielements.notifications())
   }
+
+  def typography() = Action {
+    Ok(views.html.uielements.typography())
+  }
 }
