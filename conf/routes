@@ -4,17 +4,18 @@
 
 # Home page
 GET     /                             controllers.Application.dashboard
-GET     /charts/flot                  controllers.Application.flotCharts
-GET     /charts/morris                controllers.Application.morrisCharts
+GET     /charts/flot                  controllers.Charts.flot
+GET     /charts/morris                controllers.Charts.morris
 GET     /tables                       controllers.Application.tables
 GET     /forms                        controllers.Application.forms
-GET     /ui-elements/panels-and-wells controllers.Application.panelsAndWells
-GET     /ui-elements/buttons          controllers.Application.buttons
-GET     /ui-elements/notifications    controllers.Application.notifications
-GET     /ui-elements/typography       controllers.Application.typography
-GET     /ui-elements/icons            controllers.Application.icons
-GET     /ui-elements/grid             controllers.Application.grid
-GET     /blank                        controllers.Application.blank
+GET     /ui-elements/panels-and-wells controllers.UiElements.panelsAndWells
+GET     /ui-elements/buttons          controllers.UiElements.buttons
+GET     /ui-elements/notifications    controllers.UiElements.notifications
+GET     /ui-elements/typography       controllers.UiElements.typography
+GET     /ui-elements/icons            controllers.UiElements.icons
+GET     /ui-elements/grid             controllers.UiElements.grid
+GET     /pages/blank                  controllers.Pages.blank
+GET     /pages/login                  controllers.Pages.login
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
