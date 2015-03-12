@@ -43,4 +43,8 @@ object Application extends Controller {
   def icons() = Action {
     Ok(views.html.uielements.icons())
   }
+
+  def grid() = Action {
+    Ok(views.html.uielements.grid())
+  }
 }
