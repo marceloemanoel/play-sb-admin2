@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/play-sb-admin-2 -Dhttp.port=$PORT
+web: target/universal/stage/bin/play-sb-admin-2 -Dhttp.port=$PORT -J-javaagent:newrelic/newrelic.jar -J-Dnewrelic.config.file=newrelic/newrelic.yml
