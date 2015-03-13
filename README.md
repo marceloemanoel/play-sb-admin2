@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-https://github.com/marceloemanoel/play-sb-admin2
+https://play-sb-admin-2.herokuapp.com/
 
 ## Getting Started
 
